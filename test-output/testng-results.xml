@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="9" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-27T17:16:40 IST" name="Default suite" finished-at="2021-09-27T17:18:02 IST" duration-ms="82839">
+    <groups>
+    </groups>
+    <test started-at="2021-09-27T17:16:40 IST" name="Default test" finished-at="2021-09-27T17:18:02 IST" duration-ms="82839">
+      <class name="com.comprehensive_hybrid.runner.Runner">
+        <test-method is-config="true" signature="homePage()[pri:0, instance:com.comprehensive_hybrid.runner.Runner@2fa3be26]" started-at="2021-09-27T17:16:40 IST" name="homePage" finished-at="2021-09-27T17:16:42 IST" duration-ms="2835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method signature="Login()[pri:0, instance:com.comprehensive_hybrid.runner.Runner@2fa3be26]" started-at="2021-09-27T17:16:42 IST" name="Login" finished-at="2021-09-27T17:16:54 IST" duration-ms="11215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="DiningTable(java.lang.String)[pri:1, instance:com.comprehensive_hybrid.runner.Runner@2fa3be26]" started-at="2021-09-27T17:16:55 IST" name="DiningTable" data-provider="getSearchData" finished-at="2021-09-27T17:16:55 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NegativeArraySizeException: -1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NegativeArraySizeException: -1
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:50)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:146)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:798)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NegativeArraySizeException: -1
+at com.comprehensive_hybrid.runner.Runner.getSearchData(Runner.java:220)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:77)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:46)
+... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DiningTable -->
+        <test-method signature="Sale()[pri:2, instance:com.comprehensive_hybrid.runner.Runner@2fa3be26]" started-at="2021-09-27T17:16:55 IST" name="Sale" finished-at="2021-09-27T17:17:05 IST" duration-ms="10354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sale -->
+        <test-method signature="Living()[pri:3, instance:com.comprehensive_hybrid.runner.Runner@2fa3be26]" started-at="2021-09-27T17:17:05 IST" name="Living" finished-at="2021-09-27T17:17:14 IST" duration-ms="8999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Living -->
+        <test-method signature="Bedroom()[pri:4, instance:com.comprehensive_hybrid.runner.Runner@2fa3be26]" started-at="2021-09-27T17:17:14 IST" name="Bedroom" finished-at="2021-09-27T17:17:23 IST" duration-ms="8912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bedroom -->
+        <test-method signature="Storage()[pri:5, instance:com.comprehensive_hybrid.runner.Runner@2fa3be26]" started-at="2021-09-27T17:17:23 IST" name="Storage" finished-at="2021-09-27T17:17:32 IST" duration-ms="9144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Storage -->
+        <test-method signature="Study()[pri:6, instance:com.comprehensive_hybrid.runner.Runner@2fa3be26]" started-at="2021-09-27T17:17:32 IST" name="Study" finished-at="2021-09-27T17:17:41 IST" duration-ms="8483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Study -->
+        <test-method signature="Kids()[pri:7, instance:com.comprehensive_hybrid.runner.Runner@2fa3be26]" started-at="2021-09-27T17:17:41 IST" name="Kids" finished-at="2021-09-27T17:17:49 IST" duration-ms="8414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Kids -->
+        <test-method signature="GiftCard()[pri:8, instance:com.comprehensive_hybrid.runner.Runner@2fa3be26]" started-at="2021-09-27T17:17:49 IST" name="GiftCard" finished-at="2021-09-27T17:17:59 IST" duration-ms="10233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GiftCard -->
+        <test-method signature="BulkOrder()[pri:9, instance:com.comprehensive_hybrid.runner.Runner@2fa3be26]" started-at="2021-09-27T17:17:59 IST" name="BulkOrder" finished-at="2021-09-27T17:18:02 IST" duration-ms="2900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BulkOrder -->
+      </class> <!-- com.comprehensive_hybrid.runner.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
